@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Use – iptv player</title>
+    <style>
+        :root {
+            --violet-soft: #C3B1E1;
+            --violet-light: #D8C4E8;
+            --pink-candy: #FFB6C1;
+            --pink-blush: #FFD1DC;
+            --blue-gentle: #B0E0E6;
+            --blue-sky: #AEC6CF;
+            --cloud-white: #F8F8FF;
+            --cream-dream: #FFF5E1;
+            --text-dark: #4A4A4A;
+            --text-medium: #6B6B6B;
+            --white: #FFFFFF;
+            --shadow-soft: 0 8px 20px rgba(180, 160, 200, 0.15);
+            --shadow-card: 0 4px 15px rgba(180, 160, 200, 0.12);
+            --gradient-hero: linear-gradient(135deg, #E8D5F5 0%, #FFD1DC 40%, #B0E0E6 100%);
+            --gradient-card: linear-gradient(135deg, #F8F8FF 0%, #FFF5E1 100%);
+            --radius-lg: 24px;
+            --radius-md: 16px;
+            --radius-sm: 12px;
+            --transition-smooth: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Inter', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(180deg, #F5F0FA 0%, #FFF5F8 30%, #F0F8FA 60%, #F8F8FF 100%);
+            background-attachment: fixed;
+            color: var(--text-dark);
+            line-height: 1.7;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* Floating background decorations – same dreamy bubbles */
+        body::before {
+            content: '';
+            position: fixed;
+            top: -180px;
+            right: -120px;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(255, 182, 193, 0.25) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 0;
+            animation: floatBubble 12s ease-in-out infinite;
+        }
+
+        body::after {
+            content: '';
+            position: fixed;
+            bottom: -150px;
+            left: -100px;
+            width: 450px;
+            height: 450px;
+            background: radial-gradient(circle, rgba(176, 224, 230, 0.25) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 0;
+            animation: floatBubble 15s ease-in-out infinite reverse;
+        }
+
+        @keyframes floatBubble {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            25% { transform: translate(30px, -30px) scale(1.08); }
+            50% { transform: translate(-15px, -50px) scale(0.95); }
+            75% { transform: translate(-25px, -15px) scale(1.05); }
+        }
+
+        .page-wrapper {
+            position: relative;
+            z-index: 1;
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 20px 20px 40px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 50px 30px 35px;
+            background: var(--gradient-hero);
+            border-radius: var(--radius-lg);
+            margin-bottom: 30px;
+            box-shadow: var(--shadow-soft);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::after {
+            content: '☁️';
+            position: absolute;
+            top: 15px;
+            right: 25px;
+            font-size: 40px;
+            opacity: 0.5;
+            animation: floatCloud 6s ease-in-out infinite;
+        }
+
+        .header::before {
+            content: '🌈';
+            position: absolute;
+            bottom: 10px;
+            left: 25px;
+            font-size: 35px;
+            opacity: 0.5;
+            animation: floatCloud 8s ease-in-out infinite;
+        }
+
+        @keyframes floatCloud {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-12px); }
+        }
+
+        .header-icon {
+            font-size: 56px;
+            margin-bottom: 12px;
+            display: block;
+            animation: gentlePulse 3s ease-in-out infinite;
+        }
+
+        @keyframes gentlePulse {
+            0%, 100% { transform: scale(1); opacity: 0.85; }
+            50% { transform: scale(1.1); opacity: 1; }
+        }
+
+        .header h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #5B4A6A;
+            margin-bottom: 6px;
+            letter-spacing: -0.5px;
+        }
+
+        .header .subtitle {
+            font-size: 1.05rem;
+            color: #7B6B8A;
+            font-weight: 400;
+            margin-top: 4px;
+        }
+
+        .header .effective-date {
+            display: inline-block;
+            margin-top: 14px;
+            padding: 6px 18px;
+            background: rgba(255, 255, 255, 0.55);
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #5B4A6A;
+            font-weight: 500;
+            backdrop-filter: blur(6px);
+        }
+
+        /* Content cards */
+        .content-section {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            padding: 30px 32px;
+            margin-bottom: 22px;
+            box-shadow: var(--shadow-card);
+            border: 1px solid rgba(195, 177, 225, 0.2);
+            transition: var(--transition-smooth);
+            position: relative;
+        }
+
+        .content-section:hover {
+            box-shadow: 0 8px 28px rgba(180, 160, 200, 0.2);
+            border-color: rgba(195, 177, 225, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .content-section h2 {
+            font-size: 1.45rem;
+            font-weight: 650;
+            color: #6B5B7B;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .content-section h2 .section-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            font-size: 1.1rem;
+            flex-shrink: 0;
+        }
+
+        /* Reuse icon background colors from privacy policy */
+        .icon-accept    { background: #E8D5F5; }
+        .icon-service   { background: #FFE0E5; }
+        .icon-user      { background: #D5EEF5; }
+        .icon-payment   { background: #FFF0E0; }
+        .icon-ip        { background: #E8E0F0; }
+        .icon-disclaimer{ background: #FFE8F0; }
+        .icon-liability { background: #FFE8E0; }
+        .icon-thirdparty{ background: #E0F0F0; }
+        .icon-terminate { background: #F5E8E0; }
+        .icon-law       { background: #E0E8F5; }
+        .icon-changes   { background: #D5F0E0; }
+
+        .content-section h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #7B6B8A;
+            margin: 16px 0 8px;
+        }
+
+        .content-section p {
+            margin-bottom: 10px;
+            color: var(--text-medium);
+        }
+
+        .content-section ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 8px 0 14px;
+        }
+
+        .content-section ul li {
+            position: relative;
+            padding: 8px 0 8px 30px;
+            color: var(--text-medium);
+            line-height: 1.6;
+        }
+
+        .content-section ul li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 10px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* List styles with pastel bullets */
+        .list-default li::before {
+            background: var(--violet-soft);
+            content: '•';
+            color: #5B4A6A;
+            font-weight: bold;
+            font-size: 0.9rem;
+            line-height: 20px;
+            text-align: center;
+        }
+
+        .list-check li::before {
+            background: #E0F0E8;
+            content: '✓';
+            color: #5B9A7B;
+            font-weight: 700;
+            font-size: 0.8rem;
+        }
+
+        .list-cross li::before {
+            background: #FFE0E5;
+            content: '✕';
+            color: #C0392B;
+            font-weight: 700;
+            font-size: 0.8rem;
+        }
+
+        .list-warn li::before {
+            background: #FFF0E0;
+            content: '⚠';
+            font-size: 0.8rem;
+        }
+
+        /* Highlight box */
+        .highlight-box {
+            background: linear-gradient(135deg, #FFF5F8 0%, #F5F0FA 100%);
+            border: 1px solid rgba(195, 177, 225, 0.35);
+            border-radius: var(--radius-md);
+            padding: 18px 22px;
+            margin: 16px 0;
+            position: relative;
+        }
+
+        .highlight-box::before {
+            content: '📜';
+            position: absolute;
+            top: -14px;
+            left: 18px;
+            font-size: 1.3rem;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            font-weight: 500;
+            color: #5B4A6A;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #E8D5F5;
+            color: #5B4A6A;
+            padding: 4px 12px;
+            border-radius: 14px;
+            font-size: 0.82rem;
+            font-weight: 500;
+            margin: 3px 4px;
+        }
+
+        .tag-pink { background: #FFE0E5; }
+        .tag-blue { background: #D5EEF5; }
+
+        .contact-section {
+            text-align: center;
+            padding: 30px 32px;
+            background: var(--gradient-card);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-card);
+            border: 1px solid rgba(195, 177, 225, 0.2);
+        }
+
+        .contact-section h2 {
+            font-size: 1.3rem;
+            color: #6B5B7B;
+            margin-bottom: 8px;
+        }
+
+        .contact-section p {
+            color: var(--text-medium);
+            margin-bottom: 6px;
+        }
+
+        .contact-email {
+            display: inline-block;
+            margin-top: 8px;
+            padding: 10px 24px;
+            background: linear-gradient(135deg, #E8D5F5 0%, #FFD1DC 100%);
+            color: #5B4A6A;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: var(--transition-smooth);
+            box-shadow: 0 4px 12px rgba(195, 177, 225, 0.3);
+        }
+
+        .contact-email:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(195, 177, 225, 0.45);
+            background: linear-gradient(135deg, #D8C4E8 0%, #FFC0CB 100%);
+        }
+
+        @media (max-width: 600px) {
+            .page-wrapper {
+                padding: 12px 12px 30px;
+            }
+            .header {
+                padding: 35px 18px 28px;
+                border-radius: 20px;
+            }
+            .header h1 {
+                font-size: 1.6rem;
+            }
+            .content-section {
+                padding: 22px 18px;
+                border-radius: 20px;
+            }
+            .content-section h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-wrapper">
+
+        <!-- Header -->
+        <header class="header">
+            <span class="header-icon">📄</span>
+            <h1>Terms of Use</h1>
+            <p class="subtitle">Please read these terms carefully before using iptv player.</p>
+            <span class="effective-date">📅 Last Updated: January 30, 2026</span>
+        </header>
+
+        <!-- 1. Acceptance of Terms -->
+        <section class="content-section">
+            <h2>
+                <span class="section-icon icon-accept">✅</span> 1. Acceptance of Terms
+            </h2>
+            <p>
+                By downloading, installing, or using the <strong>iptv player</strong> application (“App”),
+                you agree to be bound by these Terms of Use. If you do not agree, please do not use the App.
+            </p>
+            <p>
+                We reserve the right to update these terms at any time. Continued use after changes
+                means you accept the new terms.
+            </p>
+        </section>
+
+        <!-- 2. Description of Service -->
+        <section class="content-section">
+            <h2>
+                <span class="section-icon icon-service">📺</span> 2. Description of Service
+            </h2>
+            <p>
+                <strong>iptv player</strong> is a media player that allows you to stream content from
+                IPTV servers you provide. We do not host, provide, or control any IPTV content.
+                The App simply acts as a player.
+            </p>
+            <ul class="list-default">
+                <li>You must have a valid subscription or access credentials from an IPTV provider.</li>
+                <li>The App requires an internet connection and compatible device.</li>
+                <li>Features may vary between free and Pro (premium) versions.</li>
+            </ul>
+        </section>
+
+        <!-- 3. User Responsibilities -->
+        <section class="content-section">
+            <h2>
+                <span class="section-icon icon-user">👤</span> 3. User Responsibilities
+            </h2>
+            <p>As a user, you agree that:</p>
+            <ul class="list-check">
+                <li>You will use the App only for lawful purposes and in accordance with your IPTV provider’s terms.</li>
+                <li>You are responsible for keeping your device and credentials secure.</li>
+                <li>You will not reverse-engineer, modify, or distribute the App without permission.</li>
+                <li>You will not use the App to access or distribute copyrighted material without authorization.</li>
+            </ul>
+            <p><strong>Age requirement:</strong> You must be at least 13 years old to use the App.</p>
+        </section>
+
+        <!-- 4. Subscription and Payments -->
+        <section class="content-section">
+            <h2>
+                <span class="section-icon icon-payment">💳</span> 4. Subscriptions &amp; Payments
+            </h2>
+            <p>
+                <strong>iptv player</strong> offers optional premium subscriptions (“Pro”) through
+                Apple App Store and Google Play Store. Payment is handled securely by the respective
+                platform, not by us.
+            </p>
+            <ul class="list-default">
+                <li>Subscriptions automatically renew unless cancelled 24 hours before the renewal date.</li>
+                <li>You can manage or cancel subscriptions in your device account settings.</li>
+                <li>Refund requests must go through the applicable app store.</li>
+                <li>Prices and features are subject to change with notice in the app.</li>
+            </ul>
+            <p>Free features remain available without payment, but may include advertisements.</p>
+        </section>
+
+        <!-- 5. Intellectual Property -->
+        <section class="content-section">
+            <h2>
+                <span class="section-icon icon-ip">©️</span> 5. Intellectual Property
+            </h2>
+            <p>
+                All trademarks, logos, code, and design elements of <strong>iptv player</strong> are our property.
+                You may not copy, modify, or use them without written consent.
+            </p>
+            <p>
+                Content streamed through the App belongs to its respective owners; we claim no ownership over it.
+            </p>
+        </section>
+
+        <!-- 6. Disclaimer of Warranties -->
+        <section class="content-section">
+            <h2>
+                <span class="section-icon icon-disclaimer">⚠️</span> 6. Disclaimer of Warranties
+            </h2>
+            <p>
+                <strong>iptv player</strong> is provided “as is” and “as available” without warranties of any kind.
+                We do not guarantee:
+            </p>
+            <ul class="list-cross">
+                <li>Uninterrupted, error-free, or secure operation</li>
+                <li>Compatibility with every IPTV server or playlist format</li>
+                <li>That all channels or streams will work continuously</li>
+                <li>Accuracy or legality of third-party content</li>
+            </ul>
+            <p>Your use of the App is at your sole risk.</p>
+        </section>
+
+        <!-- 7. Limitation of Liability -->
+        <section class="content-section">
+            <h2>
+                <span class="section-icon icon-liability">⚖️</span> 7. Limitation of Liability
+            </h2>
+            <p>
+                To the fullest extent permitted by law, we shall not be liable for any indirect, incidental,
+                special, or consequential damages arising from your use of the App, including loss of data,
+                service interruptions, or issues with IPTV providers.
+            </p>
+            <p>
+                Our total liability shall not exceed the amount you paid for the App (if any) in the
+                previous 12 months.
+            </p>
+        </section>
+
+        <!-- 8. Third-Party Services -->
+        <section class="content-section">
+            <h2>
+                <span class="section-icon icon-thirdparty">🔗</span> 8. Third-Party Services
+            </h2>
+            <p>The App may integrate third-party services such as:</p>
+            <p>
+                <span class="tag">RevenueCat</span>
+                <span class="tag tag-pink">Google AdMob</span>
+                <span class="tag tag-blue">Firebase</span>
+            </p>
+            <p>
+                These services have their own terms and privacy policies. We are not responsible for them.
+            </p>
+        </section>
+
+        <!-- 9. Termination -->
+        <section class="content-section">
+            <h2>
+                <span class="section-icon icon-terminate">🚫</span> 9. Termination
+            </h2>
+            <p>
+                We may suspend or terminate your access to the App at any time, without prior notice,
+                if you violate these terms or engage in fraudulent or illegal activity.
+            </p>
+            <p>
+                You may stop using the App at any time by deleting it from your device.
+            </p>
+        </section>
+
+        <!-- 10. Governing Law -->
+        <section class="content-section">
+            <h2>
+                <span class="section-icon icon-law">🏛️</span> 10. Governing Law
+            </h2>
+            <p>
+                These terms shall be governed by the laws of the jurisdiction where the developer operates,
+                without regard to conflict of law principles. Any disputes shall be resolved in the
+                competent courts of that jurisdiction.
+            </p>
+        </section>
+
+        <!-- 11. Changes to Terms -->
+        <section class="content-section">
+            <h2>
+                <span class="section-icon icon-changes">🔄</span> 11. Changes to Terms
+            </h2>
+            <p>
+                We may update these Terms of Use from time to time. The “Last Updated” date at the top
+                indicates the most recent revision. We will notify you of significant changes through
+                the App or via other reasonable means.
+            </p>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact-section">
+            <h2>💬 Questions About These Terms?</h2>
+            <p>If you have any questions, please reach out to us.</p>
+            <a href="mailto:RooCoth@proton.me" class="contact-email">📧 RooCoth@proton.me</a>
+        </section>
+
+    </div>
+
+</body>
+</html>
