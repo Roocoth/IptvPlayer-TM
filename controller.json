@@ -62,7 +62,7 @@
     },
     "sectionsLocked": {
       "live": true,
-      "movies": false,
+      "movies": true,
       "series": true
     },
     "eyebrow": "PRIVATE SCREENING ROOM",
