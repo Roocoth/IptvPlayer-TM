@@ -8,7 +8,7 @@
     "playStoreUrl": "https://play.google.com/store/apps/details?id=com.yourapp"
   },
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "showPrivacySettings": true,
     "adUnits": {
       "banner": "ca-app-pub-3940256099942544/6300978111",
@@ -18,9 +18,9 @@
       "appOpen": "ca-app-pub-3940256099942544/9257395921"
     },
     
-    "nativeAdMenuEnabled": false,
-    "nativeAdWelcomeEnabled": false,
-    "nativeAdAccountsEnabled": false,
+    "nativeAdMenuEnabled": true,
+    "nativeAdWelcomeEnabled": true,
+    "nativeAdAccountsEnabled": true,
     
     "timing": {
       "interstitialMinInterval": 0,
