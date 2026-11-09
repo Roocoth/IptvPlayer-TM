@@ -47,7 +47,7 @@
   
   "pages": {
     "onboarding": true,
-    "gettingStarted": false
+    "gettingStarted": true
   },
   
   "subscription": {
