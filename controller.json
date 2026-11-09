@@ -46,7 +46,7 @@
   },
   
   "pages": {
-    "onboarding": false,
+    "onboarding": true,
     "gettingStarted": true
   },
   
