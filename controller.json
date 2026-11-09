@@ -30,15 +30,15 @@
       "adLoadRetryDelay": 5
     },
     "actionsBeforeInterstitial": {
-      "live": 3,
-      "movie": 3,
-      "series": 3,
-      "favorites": 3,
-      "category": 3,
-      "watching": 3,
-      "search": 3,
-      "settings": 3,
-      "onboarding": 3
+      "live": 5,
+      "movie": 5,
+      "series": 5,
+      "favorites": 5,
+      "category": 5,
+      "watching": 5,
+      "search": 5,
+      "settings": 5,
+      "onboarding": 5
     }
   },
   "pages": {
