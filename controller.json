@@ -17,11 +17,9 @@
       "native": "ca-app-pub-3940256099942544/2247696110",
       "appOpen": "ca-app-pub-3940256099942544/9257395921"
     },
-    
     "nativeAdMenuEnabled": true,
     "nativeAdWelcomeEnabled": true,
     "nativeAdAccountsEnabled": true,
-    
     "timing": {
       "interstitialMinInterval": 0,
       "appOpenMinInterval": 30,
@@ -31,7 +29,6 @@
       "maxAdLoadRetries": 3,
       "adLoadRetryDelay": 5
     },
-    
     "actionsBeforeInterstitial": {
       "live": 3,
       "movie": 3,
@@ -44,12 +41,38 @@
       "onboarding": 3
     }
   },
-  
   "pages": {
     "onboarding": true,
-    "gettingStarted": true
+    "gettingStarted": true,
+    "conversionGateway": true
   },
-  
+  "conversionGateway": {
+    "enabled": true,
+    "lockMode": "hard",
+    "softLockThreshold": 2,
+    "sectionOrder": [
+      "live",
+      "movies",
+      "series"
+    ],
+    "sectionsVisibility": {
+      "live": true,
+      "movies": true,
+      "series": true
+    },
+    "sectionsLocked": {
+      "live": true,
+      "movies": true,
+      "series": true
+    },
+    "eyebrow": "PRIVATE SCREENING ROOM",
+    "headline": "Every Live Broadcast, Cinema Premiere & Series in One Atelier",
+    "subheadline": "Explore curated 4K channels, on-demand films, and multi-season series—or connect your own provider in seconds.",
+    "unlockCtaLabel": "Unlock Full Studio Pass",
+    "unlockCtaSubtitle": "4K HDR Playback • 7-Day Catch-Up Replay • Picture-in-Picture • Ad-Free",
+    "connectCtaLabel": "Connect Your Provider or Playlist",
+    "sampleCtaLabel": "Preview Open Sample Library"
+  },
   "subscription": {
     "enabled": true,
     "vodLocked": false,
@@ -57,14 +80,12 @@
     "seriesLocked": false,
     "liveTvLocked": false,
     "qualityUpgradeEnabled": true,
-    
     "gettingStarted": {
       "liveTvLocked": true,
       "moviesLocked": true,
       "seriesLocked": true
     }
   },
-
   "dialogs": {
     "disclaimer": {
       "enabled": true,
@@ -95,11 +116,4 @@
       "features": [
         "Stunning HD & 4K Playback",
         "Live TV Guide & Catch-Up",
-        "Smart Favorites & Quick Access",
-        "Stream on Any Device"
-      ],
-      "laterButton": "Maybe Later",
-      "ctaButton": "Get Started"
-    }
-  }
-}
+        "Smart Favorites & Quick
