@@ -1,6 +1,6 @@
 {
   "app": {
-    "enabled": true,
+    "enabled": false,
     "forceUpdate": false,
     "maintenanceMessage": "We're updating the app. Please try again later.",
     "updateMessage": "A new version is available. Please update to continue.",
@@ -8,7 +8,7 @@
     "playStoreUrl": "https://play.google.com/store/apps/details?id=com.yourapp"
   },
   "ads": {
-    "enabled": true,
+    "enabled": false,
     "showPrivacySettings": true,
     "adUnits": {
       "banner": "ca-app-pub-3940256099942544/6300978111",
