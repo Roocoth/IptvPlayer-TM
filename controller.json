@@ -1,6 +1,6 @@
 {
   "app": {
-    "enabled": false,
+    "enabled": true,
     "forceUpdate": false,
     "maintenanceMessage": "We're updating the app. Please try again later.",
     "updateMessage": "A new version is available. Please update to continue.",
