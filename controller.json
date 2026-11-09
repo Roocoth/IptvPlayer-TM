@@ -42,7 +42,7 @@
     }
   },
   "pages": {
-    "onboarding": true,
+    "onboarding": false,
     "gettingStarted": true,
     "conversionGateway": true
   },
