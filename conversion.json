@@ -14,7 +14,7 @@
     "series": true
   },
   "copy": {
-    "eyebrow": "ZZZATELIER PLAYBACK STUDIO",
+    "eyebrow": "ATELIER PLAYBACK STUDIO",
     "headline": "Your Playlists, Refined & Organized in One Atelier",
     "subheadline": "Stream live broadcasts, films, and multi-season series from your own playlists—or preview open sample media.",
     "unlockCtaLabel": "Unlock Full Studio Pass",
@@ -27,7 +27,7 @@
   "categories": {
     "live": [
       {
-        "id": "live_fast_zap",
+        "id": "zzzlive_fast_zap",
         "title": "Fast Zapping & Low-Latency Live",
         "caption": "Sub-500ms Channel Zap • Low Latency Engine",
         "shortBenefit": "Instant Channel Switching",
