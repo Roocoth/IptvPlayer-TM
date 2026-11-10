@@ -1,5 +1,5 @@
 {
-  "enabled": false,
+  "enabled": true,
   "lockMode": "soft",
   "softLockThreshold": 2,
   "sectionOrder": ["live", "movies", "series"],
