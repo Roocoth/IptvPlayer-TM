@@ -44,7 +44,7 @@
   "pages": {
     "onboarding": false,
     "gettingStarted": true,
-    "conversionGateway": true
+    "conversionGateway": false
   },
   "conversionGateway": {
     "enabled": true,
