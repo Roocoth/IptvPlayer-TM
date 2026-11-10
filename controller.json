@@ -43,8 +43,8 @@
   },
   "pages": {
     "onboarding": false,
-    "gettingStarted": false,
-    "conversionGateway": true
+    "gettingStarted": false
+    
   },
   "subscription": {
     "enabled": true,
