@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "lockMode": "soft",
+  "lockMode": "hard",
   "softLockThreshold": 2,
   "sectionOrder": ["live", "movies", "series"],
   "sectionsVisibility": {
