@@ -1,0 +1,102 @@
+{
+  "app": {
+    "enabled": true,
+    "forceUpdate": false,
+    "maintenanceMessage": "We're updating the app. Please try again later.",
+    "updateMessage": "A new version is available. Please update to continue.",
+    "appStoreUrl": "https://apps.apple.com/app/idXXXXXX",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.yourapp"
+  },
+
+  "ads": {
+    "enabled": true,
+    "showPrivacySettings": true,
+    "adUnits": {
+      "banner": "",
+      "interstitial": "ca-app-pub-9238291077605142/5738252927",
+      "rewarded": "",
+      "native": "ca-app-pub-9238291077605142/1589357992",
+      "appOpen": "ca-app-pub-9238291077605142/8088355143"
+    },
+    "nativeAdMenuEnabled": true,
+    "nativeAdWelcomeEnabled": true,
+    "nativeAdAccountsEnabled": true,
+    "timing": {
+      "interstitialMinInterval": 0,
+      "appOpenMinInterval": 0,
+      "appOpenMaxAgeHours": 40,
+      "appOpenMinBackgroundTime": 30,
+      "minBackgroundSecondsForResume": 15,
+      "maxAdLoadRetries": 3,
+      "adLoadRetryDelay": 5
+    },
+    "actionsBeforeInterstitial": {
+      "live": 3,
+      "movie": 3,
+      "series": 3,
+      "favorites": 3,
+      "category": 3,
+      "watching": 3,
+      "search": 3,
+      "settings": 3,
+      "onboarding": 3
+    }
+  },
+
+  "pages": {
+    "gettingStarted": true,
+    "onboarding": true
+  },
+
+  "subscription": {
+    "enabled": true,
+    "vodLocked": false,
+    "moviesLocked": true,
+    "seriesLocked": true,
+    "liveTvLocked": false,
+    "qualityUpgradeEnabled": true,
+    "gettingStarted": {
+      "liveTvLocked": true,
+      "moviesLocked": true,
+      "seriesLocked": true
+    }
+  },
+
+  "dialogs": {
+    "disclaimer": {
+      "enabled": true,
+      "title": "Welcome to iptvnator",
+      "body": [
+        "iptvnator is your premium media player , designed to deliver the best streaming experience with your own playlists and content sources.",
+        "You're in full control. Add your IPTV playlists and enjoy cinema-quality playback, smart guides, and powerful features. Please ensure you have the right to access any content you stream."
+      ],
+      "buttonText": "Let's Go"
+    },
+    "proPlayerConfirmation": {
+      "enabled": true,
+      "title": "Go Pro",
+      "features": [
+        "Cinema-quality HD & 4K experience",
+        "Smart TV guide with catch-up",
+        "Stream across all your devices",
+        "Compatible with any IPTV playlist"
+      ],
+      "disclaimer": "Pro unlocks the full player experience — bring your favorite playlists and enjoy premium playback.",
+      "cancelButton": "Not Now",
+      "ctaButton": "Explore Pro"
+    },
+    "unlockPremium": {
+      "enabled": true,
+      "title": "Your Premium Player",
+      "subtitle": "Add your playlist and start watching instantly",
+      "features": [
+        "Stunning HD & 4K Playback",
+        "Live TV Guide & Catch-Up",
+        "Smart Favorites & Quick Access",
+        "Stream on Any Device"
+      ],
+      "laterButton": "Maybe Later",
+      "ctaButton": "Get Started"
+    }
+  }
+}
