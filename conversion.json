@@ -9,9 +9,9 @@
     "series": true
   },
   "sectionsLocked": {
-    "live": false,
-    "movies": false,
-    "series": false
+    "live": true,
+    "movies": true,
+    "series": true
   },
   "copy": {
     "eyebrow": "ZZZATELIER PLAYBACK STUDIO",
