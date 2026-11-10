@@ -1,0 +1,156 @@
+{
+  "enabled": false,
+  "lockMode": "soft",
+  "softLockThreshold": 2,
+  "sectionOrder": ["live", "movies", "series"],
+  "sectionsVisibility": {
+    "live": true,
+    "movies": true,
+    "series": true
+  },
+  "sectionsLocked": {
+    "live": false,
+    "movies": false,
+    "series": false
+  },
+  "copy": {
+    "eyebrow": "ATELIER PLAYBACK STUDIO",
+    "headline": "Your Playlists, Refined & Organized in One Atelier",
+    "subheadline": "Stream live broadcasts, films, and multi-season series from your own playlists—or preview open sample media.",
+    "unlockCtaLabel": "Unlock Full Studio Pass",
+    "unlockCtaSubtitle": "Ad-Free Screening • Hardware Acceleration • Advanced Player Chrome",
+    "unlockCtaBadge": "Ad-Free  •  Hardware Acceleration  •  Multi-Audio",
+    "connectCtaLabel": "Connect Your Provider or Playlist",
+    "sampleCtaLabel": "Preview Open Sample Library",
+    "softLockSheetText": "Unlock hardware-accelerated playback and ad-free screening for {title}, or connect your existing provider."
+  },
+  "categories": {
+    "live": [
+      {
+        "id": "live_fast_zap",
+        "title": "Fast Zapping & Low-Latency Live",
+        "caption": "Sub-500ms Channel Zap • Low Latency Engine",
+        "shortBenefit": "Instant Channel Switching",
+        "tag": "LIVE",
+        "icon": "live_tv",
+        "accent": "#D9A441",
+        "showLock": false
+      },
+      {
+        "id": "live_hardware_accel",
+        "title": "Hardware Accelerated Streams",
+        "caption": "{count} Streams Configured • Picture-in-Picture",
+        "shortBenefit": "{count} Streams • Multi-Track Audio",
+        "tag": "HD/4K",
+        "icon": "hd",
+        "accent": "#E5B454",
+        "showLock": false
+      },
+      {
+        "id": "live_epg_guide",
+        "title": "Interactive TV Guide & Replay",
+        "caption": "Interactive EPG Timeline • Catch-Up Navigation",
+        "shortBenefit": "Timeline Guide & Replay",
+        "tag": "EPG",
+        "icon": "newspaper",
+        "accent": "#C8C2B4",
+        "showLock": false
+      },
+      {
+        "id": "live_multi_audio",
+        "title": "Global Audio & Multi-Language",
+        "caption": "Multi-Audio Tracks • Background Audio Mode",
+        "shortBenefit": "Multi-Language Audio",
+        "tag": "AUDIO",
+        "icon": "graphic_eq",
+        "accent": "#C98A4B",
+        "showLock": false
+      }
+    ],
+    "movies": [
+      {
+        "id": "mov_cinema_playback",
+        "title": "Cinema & Film Playback",
+        "caption": "Hardware HDR Decoding • Custom Subtitles",
+        "shortBenefit": "HDR Playback • Subtitles",
+        "tag": "CINEMA",
+        "icon": "local_movies",
+        "accent": "#D9A441",
+        "showLock": false
+      },
+      {
+        "id": "mov_open_sample",
+        "title": "Open Sample Movie Library",
+        "caption": "{count} Curated Films Ready • Instant Resume",
+        "shortBenefit": "{count} Films • Instant Resume",
+        "tag": "OPEN CC",
+        "icon": "movie_filter",
+        "accent": "#E5B454",
+        "showLock": false
+      },
+      {
+        "id": "mov_enhanced_audio",
+        "title": "Enhanced Audio & Night Mode",
+        "caption": "Multi-Track Audio • Night Dialogue Boost",
+        "shortBenefit": "Dialogue Boost • Equalizer",
+        "tag": "AUDIO+",
+        "icon": "auto_awesome",
+        "accent": "#C8C2B4",
+        "showLock": false
+      },
+      {
+        "id": "mov_parental_room",
+        "title": "Screening Room & Parental Lock",
+        "caption": "4-Digit PIN Lock • Ad-Free Playback",
+        "shortBenefit": "PIN Security • Clean UI",
+        "tag": "SAFE",
+        "icon": "family_restroom",
+        "accent": "#C98A4B",
+        "showLock": false
+      }
+    ],
+    "series": [
+      {
+        "id": "ser_binge_resume",
+        "title": "Multi-Episode Binge & Resume",
+        "caption": "Auto-Next Episode • Cross-Session Sync",
+        "shortBenefit": "Auto-Next • Resume Point",
+        "tag": "SERIES",
+        "icon": "theaters",
+        "accent": "#D9A441",
+        "showLock": false
+      },
+      {
+        "id": "ser_catalog_guide",
+        "title": "Series Catalog & Episode Guide",
+        "caption": "{count} Series Ready • One-Tap Skip Intro",
+        "shortBenefit": "{count} Series • Quick Skip",
+        "tag": "STUDIO",
+        "icon": "video_library",
+        "accent": "#E5B454",
+        "showLock": false
+      },
+      {
+        "id": "ser_docuseries",
+        "title": "Documentary & World Formats",
+        "caption": "Multi-Language Subtitles • Variable Speed",
+        "shortBenefit": "Subtitles • Variable Speed",
+        "tag": "DOCS",
+        "icon": "public",
+        "accent": "#C8C2B4",
+        "showLock": false
+      },
+      {
+        "id": "ser_season_nav",
+        "title": "Instant Season Navigation",
+        "caption": "Instant Season Switching • Sleep Timer",
+        "shortBenefit": "Seasons • Sleep Timer",
+        "tag": "COMFORT",
+        "icon": "stars",
+        "accent": "#C98A4B",
+        "showLock": false
+      }
+    ]
+  }
+}
+
