@@ -7,6 +7,10 @@
     "appStoreUrl": "https://apps.apple.com/app/idXXXXXX",
     "playStoreUrl": "https://play.google.com/store/apps/details?id=com.yourapp"
   },
+  
+  "features": {
+    "demo": false
+  },
   "ads": {
     "enabled": false,
     "showPrivacySettings": true,
