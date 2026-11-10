@@ -27,8 +27,8 @@
   "categories": {
     "live": [
       {
-        "id": "zzzlive_fast_zap",
-        "title": "Fast Zapping & Low-Latency Live",
+        "id": "live_fast_zap",
+        "title": "zzzzFast Zapping & Low-Latency Live",
         "caption": "Sub-500ms Channel Zap • Low Latency Engine",
         "shortBenefit": "Instant Channel Switching",
         "tag": "LIVE",
