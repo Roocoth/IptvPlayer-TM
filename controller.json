@@ -46,8 +46,6 @@
     "gettingStarted": false,
     "conversionGateway": false
   },
-  
-  },
   "subscription": {
     "enabled": true,
     "vodLocked": false,
@@ -67,7 +65,7 @@
       "title": "Welcome to {appName}",
       "body": [
         "{appName} is your premium media player — designed to deliver the best streaming experience with your own playlists and content sources.",
-        "You're in full control. Add your IPTV playlists and enjoy cinema-quality playback, smart guides, and powerful features. Please ensure you have the right to access any content you stream."
+        "You're in full control. Add your playlists and enjoy cinema-quality playback, smart guides, and powerful features. Please ensure you have the right to access any content you stream."
       ],
       "buttonText": "Let's Go"
     },
@@ -78,7 +76,7 @@
         "Cinema-quality HD & 4K experience",
         "Smart TV guide with catch-up",
         "Stream across all your devices",
-        "Compatible with any IPTV playlist"
+        "Compatible with your playlists"
       ],
       "disclaimer": "Pro unlocks the full player experience — bring your favorite playlists and enjoy premium playback.",
       "cancelButton": "Not Now",
