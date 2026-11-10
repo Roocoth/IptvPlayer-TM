@@ -1,102 +1,115 @@
+
 {
-  "app": {
+  "version": "2.0",
+  "customizedPaywall": true,
+  "media": {
+    "type": "image",
+    "url": "",
+    "fallbackUrl": "assets/images/subscription/paywall_hero.png"
+  },
+  "texts": {
+    "badge": "IptvNator PRO",
+    "title": "Unlock Premium\nStreaming",
+    "subtitle": "Join thousands of users who upgraded",
+    "ctaButton": {
+      "weekly": "Subscribe Now",
+      "monthly": "Subscribe Now",
+      "yearly": "Subscribe Now",
+      "lifetime": "Get Lifetime Access",
+      "default": "Continue"
+    },
+    "restoreButton": "Restore Purchases",
+    "cancelAnytime": "Cancel anytime. No questions asked.",
+    "loadingPlans": "Loading exclusive offers...",
+    "processingPurchase": "Unlocking Pro...",
+    "successTitle": "Welcome to Pro! 🎉",
+    "successMessage": "You now have unlimited access to all premium features!",
+    "successButton": "Start Streaming",
+    "activeTitle": "You're a Pro! 🎉",
+    "errorTitle": "Unable to load plans",
+    "errorMessage": "Please check your connection and try again",
+    "retryButton": "Try Again"
+  },
+  "urgency": {
     "enabled": true,
-    "forceUpdate": false,
-    "maintenanceMessage": "We're updating the app. Please try again later.",
-    "updateMessage": "A new version is available. Please update to continue.",
-    "appStoreUrl": "https://apps.apple.com/app/idXXXXXX",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.yourapp"
+    "title": "🔥 LIMITED TIME OFFER",
+    "subtitle": "Special pricing ends in:",
+    "timerMinutes": 15
   },
-
-  "ads": {
+  "socialProof": {
     "enabled": true,
-    "showPrivacySettings": true,
-    "adUnits": {
-      "banner": "",
-      "interstitial": "ca-app-pub-9238291077605142/5738252927",
-      "rewarded": "",
-      "native": "ca-app-pub-9238291077605142/1589357992",
-      "appOpen": "ca-app-pub-9238291077605142/8088355143"
-    },
-    "nativeAdMenuEnabled": true,
-    "nativeAdWelcomeEnabled": true,
-    "nativeAdAccountsEnabled": true,
-    "timing": {
-      "interstitialMinInterval": 0,
-      "appOpenMinInterval": 0,
-      "appOpenMaxAgeHours": 40,
-      "appOpenMinBackgroundTime": 30,
-      "minBackgroundSecondsForResume": 15,
-      "maxAdLoadRetries": 3,
-      "adLoadRetryDelay": 5
-    },
-    "actionsBeforeInterstitial": {
-      "live": 3,
-      "movie": 3,
-      "series": 3,
-      "favorites": 3,
-      "category": 3,
-      "watching": 3,
-      "search": 3,
-      "settings": 3,
-      "onboarding": 3
-    }
+    "userCount": "25,000+",
+    "userCountLabel": "happy users",
+    "rating": "4.8",
+    "ratingCount": "1.2K ratings",
+    "testimonials": [
+      {
+        "text": "Best IPTV player I've ever used!",
+        "author": "Alex M.",
+        "avatar": "A"
+      },
+      {
+        "text": "Worth every penny. No ads is amazing!",
+        "author": "Sarah K.",
+        "avatar": "S"
+      },
+      {
+        "text": "Finally a premium streaming experience!",
+        "author": "Mike R.",
+        "avatar": "M"
+      }
+    ]
   },
-
-  "pages": {
-    "gettingStarted": true,
-    "onboarding": true
-  },
-
-  "subscription": {
+  "trustBadges": {
     "enabled": true,
-    "vodLocked": false,
-    "moviesLocked": true,
-    "seriesLocked": true,
-    "liveTvLocked": false,
-    "qualityUpgradeEnabled": true,
-    "gettingStarted": {
-      "liveTvLocked": true,
-      "moviesLocked": true,
-      "seriesLocked": true
-    }
+    "items": [
+      {"icon": "shield_check", "label": "Secure Payment"},
+      {"icon": "refresh", "label": "Cancel Anytime"},
+      {"icon": "verified", "label": "30-Day Guarantee"}
+    ]
   },
-
-  "dialogs": {
-    "disclaimer": {
-      "enabled": true,
-      "title": "Welcome to iptvnator",
-      "body": [
-        "iptvnator is your premium media player , designed to deliver the best streaming experience with your own playlists and content sources.",
-        "You're in full control. Add your IPTV playlists and enjoy cinema-quality playback, smart guides, and powerful features. Please ensure you have the right to access any content you stream."
-      ],
-      "buttonText": "Let's Go"
+  "planBadges": {
+    "weekly": null,
+    "monthly": "POPULAR",
+    "lifetime": "BEST VALUE"
+  },
+  "savings": {
+    "weekly": null,
+    "monthly": null,
+    "lifetime": "SAVE 80%"
+  },
+  "features": [
+    {"icon": "block", "label": "No Ads", "benefit": "Uninterrupted streaming"},
+    {"icon": "hd", "label": "4K Quality", "benefit": "Crystal clear video"},
+    {"icon": "speed", "label": "Fast Loading", "benefit": "Optimized performance"},
+    {"icon": "play_circle", "label": "All Channels", "benefit": "Unlimited access"},
+    {"icon": "movie", "label": "VOD content", "benefit": "Watch Movies/series"},
+    {"icon": "support_agent", "label": "Priority Support", "benefit": "24/7 assistance"}
+  ],
+  "links": {
+    "termsUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "privacyUrl": "https://rebrand.ly/AbMy-Privacy",
+    "eulaUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+  },
+  "revenueCat": {
+    "enabled": true,
+    "ios_api_key": "appl_psUMRxLtZkbkeieBoJlafBLoEHb",
+    "android_api_key": "YOUR_REVENUECAT_ANDROID_API_KEY",
+    "products": {
+      "weekly": "com.AbMyPlayer.premium.Weekly",
+      "monthly": "com.AbMyPlayer.premium.Monthly",
+      "yearly": "",
+      "lifetime": "com.MyAbPlayer.pro.lifetime"
     },
-    "proPlayerConfirmation": {
-      "enabled": true,
-      "title": "Go Pro",
-      "features": [
-        "Cinema-quality HD & 4K experience",
-        "Smart TV guide with catch-up",
-        "Stream across all your devices",
-        "Compatible with any IPTV playlist"
-      ],
-      "disclaimer": "Pro unlocks the full player experience — bring your favorite playlists and enjoy premium playback.",
-      "cancelButton": "Not Now",
-      "ctaButton": "Explore Pro"
+    "offerings": {
+      "default": "AbMyPlayer",
+      "discounted": "discounted",
+      "onboarding": "onboarding_special",
+      "winback": "winback"
     },
-    "unlockPremium": {
-      "enabled": true,
-      "title": "Your Premium Player",
-      "subtitle": "Add your playlist and start watching instantly",
-      "features": [
-        "Stunning HD & 4K Playback",
-        "Live TV Guide & Catch-Up",
-        "Smart Favorites & Quick Access",
-        "Stream on Any Device"
-      ],
-      "laterButton": "Maybe Later",
-      "ctaButton": "Get Started"
+    "entitlements": {
+      "premium": "AbMyPlayer Pro",
+      "pro": "AbMyPlayer Pro"
     }
   }
 }
