@@ -46,32 +46,7 @@
     "gettingStarted": false,
     "conversionGateway": false
   },
-  "conversionGateway": {
-    "enabled": true,
-    "lockMode": "hard",
-    "softLockThreshold": 2,
-    "sectionOrder": [
-      "live",
-      "movies",
-      "series"
-    ],
-    "sectionsVisibility": {
-      "live": true,
-      "movies": true,
-      "series": true
-    },
-    "sectionsLocked": {
-      "live": true,
-      "movies": true,
-      "series": true
-    },
-    "eyebrow": "PRIVATE SCREENING ROOM",
-    "headline": "Every Live Broadcast, Cinema Premiere & Series in One Atelier",
-    "subheadline": "Explore curated 4K channels, on-demand films, and multi-season series—or connect your own provider in seconds.",
-    "unlockCtaLabel": "Unlock Full Studio Pass",
-    "unlockCtaSubtitle": "4K HDR Playback • 7-Day Catch-Up Replay • Picture-in-Picture • Ad-Free",
-    "connectCtaLabel": "Connect Your Provider or Playlist",
-    "sampleCtaLabel": "Preview Open Sample Library"
+  
   },
   "subscription": {
     "enabled": true,
