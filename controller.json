@@ -47,7 +47,7 @@
   },
   "pages": {
     "onboarding": false,
-    "gettingStarted": true
+    "gettingStarted": false
     
   },
   "subscription": {
