@@ -87,9 +87,9 @@
     {"icon": "support_agent", "label": "Priority Support", "benefit": "24/7 assistance"}
   ],
   "links": {
-    "termsUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
-    "privacyUrl": "https://rebrand.ly/-Privacy",
-    "eulaUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+  "termsUrl": "https://xozryp.github.io/ktlmaplayer/terms",
+  "privacyUrl": "https://xozryp.github.io/ktlmaplayer/privacy",
+  "eulaUrl": "https://xozryp.github.io/ktlmaplayer/terms"
   },
   "revenueCat": {
     "enabled": true,
