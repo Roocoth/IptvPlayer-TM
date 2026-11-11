@@ -5,7 +5,7 @@
   "media": {
     "type": "image",
     "url": "",
-    "fallbackUrl": "assets/images/subscription/paywall_hero.png"
+    "fallbackUrl": "assets/images/subscription/premium_backdrop.png"
   },
   "texts": {
     "badge": "APPNAME PRO",
