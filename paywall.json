@@ -88,12 +88,12 @@
   ],
   "links": {
     "termsUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
-    "privacyUrl": "https://rebrand.ly/AbMy-Privacy",
+    "privacyUrl": "https://rebrand.ly/-Privacy",
     "eulaUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
   },
   "revenueCat": {
     "enabled": true,
-    "ios_api_key": "appl_psUMRxLtZkbkeieBoJlafBLoEHb",
+    "ios_api_key": "appl_psUMRxLtZk",
     "android_api_key": "YOUR_REVENUECAT_ANDROID_API_KEY",
     "products": {
       "weekly": "com..premium.Weekly",
@@ -108,8 +108,8 @@
       "winback": "winback"
     },
     "entitlements": {
-      "premium": "AbMyPlayer Pro",
-      "pro": "AbMyPlayer Pro"
+      "premium": "APlayer Pro",
+      "pro": "APlayer Pro"
     }
   }
 }
