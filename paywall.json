@@ -1,6 +1,6 @@
 
 {
-  "version": "2.0",
+  "version": "1.0",
   "customizedPaywall": true,
   "media": {
     "type": "image",
@@ -8,7 +8,7 @@
     "fallbackUrl": "assets/images/subscription/paywall_hero.png"
   },
   "texts": {
-    "badge": "IptvNator PRO",
+    "badge": "APPNAME PRO",
     "title": "Unlock Premium\nStreaming",
     "subtitle": "Join thousands of users who upgraded",
     "ctaButton": {
@@ -96,13 +96,13 @@
     "ios_api_key": "appl_psUMRxLtZkbkeieBoJlafBLoEHb",
     "android_api_key": "YOUR_REVENUECAT_ANDROID_API_KEY",
     "products": {
-      "weekly": "com.AbMyPlayer.premium.Weekly",
-      "monthly": "com.AbMyPlayer.premium.Monthly",
+      "weekly": "com..premium.Weekly",
+      "monthly": "com..premium.Monthly",
       "yearly": "",
-      "lifetime": "com.MyAbPlayer.pro.lifetime"
+      "lifetime": "com..pro.lifetime"
     },
     "offerings": {
-      "default": "AbMyPlayer",
+      "default": "APlayer",
       "discounted": "discounted",
       "onboarding": "onboarding_special",
       "winback": "winback"
