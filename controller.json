@@ -52,6 +52,7 @@
   },
   "subscription": {
     "enabled": true,
+    "paywallOnLaunch": true,
     "vodLocked": false,
     "moviesLocked": false,
     "seriesLocked": false,
